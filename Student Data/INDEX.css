@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+ .container{
+ 	width: 80%;
+    margin-top: 30px;
+ }
+
+input[type=text]{
+	width: 100%;
+	height: 35px;
+	border: 2px solid blueviolet;
+	border-radius: 6px;
+
+	font-family: Bookman Old Style;
+	font-size: 30px;
+}
+
+input[type=number]{
+ 	width: 48%;
+ 	height: 35px;
+ 	border-radius: 6px;
+ 	border: 2px solid blueviolet;
+ 	margin-top: 6px;
+ 	margin-left: 10px;
+ 	font-size: 30px;
+ 	
+ 	font-family: Bookman Old Style;
+ }
+
+ button{
+ 	height: 40px;
+ 	border-radius: 6px;
+ 	border: 2px solid blueviolet;
+ 	margin-top: 6px;
+ 	width: 100%;
+ 	background: blueviolet;
+ 	font-family: sans-serif;
+ 	color: white;
+ 	font-size: 25px;
+ }
+
+
+

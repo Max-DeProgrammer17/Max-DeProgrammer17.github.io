@@ -1,0 +1,79 @@
+::before,
+::after,
+*{
+  box-sizing: border-box;
+  font-family: system-ui;
+ 
+}
+
+
+.container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+}
+
+.text-container h1{
+  color: #6627ffcc;
+  font-size: 3.6rem;
+}
+
+.text-container p{
+  font-size: 1.8rem;
+}
+
+
+.side-bar .face-form{
+  background-color: white;
+  padding: 14px;
+  border-radius: 0.2rem;
+}
+
+
+
+.face-form input{
+  width: 328px;
+  height: 45px;
+  margin-top: 16px;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+}
+
+ .face-form input::placeholder{
+  font-size: 1.2rem;
+ }
+
+ .btn-1{
+  margin-top: 16px;
+  margin-bottom: 13px;
+  width: 328px;
+  padding: 7px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  background-color: #6627ffcc;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+ }
+
+ #link{
+
+  font-size: 1.1rem;
+  text-decoration: none;
+ }
+
+ .create #btn-2{
+  margin-top: 16px;
+  margin-bottom: 13px;
+  width: 250px;
+  padding: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #0e830ecf;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+ }
