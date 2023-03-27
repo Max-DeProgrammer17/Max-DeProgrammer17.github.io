@@ -1,0 +1,175 @@
+::before,
+::after,
+*{
+	box-sizing: border-box;
+	font-family: system-ui;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: turquoise;
+}
+
+.container-one{
+	display: flex;
+	justify-content: space-between;
+	background: #1571694d;
+	padding: 6px;
+	box-shadow: 10px 10px 5px #8d7f80;
+}
+
+.nav-container ul li{
+	display: inline;
+	margin: 0px 20px;
+}
+
+.nav-container a{
+	position:relative;
+	top: 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.nav-container a:hover{
+	position: relative;
+	top: 7px;
+	box-shadow: 6px 6px 5px  whitesmoke;
+}
+
+.nav-container .not-current{
+   background: #12135563;
+   color: white;
+   padding: 2px 11px;
+   border-radius: 0.3rem;
+}
+
+.nav-button a > button{
+	width: 100px;
+	height: 40px;
+	border-radius: 0.4rem;
+	border: none;
+	font-size: 1.2rem;
+	margin: 5px 8px;
+	background: linear-gradient(to right, #234cad, #657abf);
+	color: white;
+	font-weight: 300;
+}
+
+.nav-button a > button:hover{
+	position: relative;
+	top: -6px;
+	box-shadow: 8px 8px 10px darkcyan;
+}
+
+.container-one h1{
+	font-size: 1.3rem;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	font-family: Castellar;
+	margin: 5px 0px 0px 5px;
+	color: #842705f5;
+}
+
+.container-one h1 > span{
+	color: #4f433fc4;
+	font-family:Colonna MT ;
+	font-size: 1.8rem;
+}
+
+/*FORM FORM SIGNUP*/
+
+.form-container{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signup-form{
+	background: #bdadea;
+	width: 360px;
+	border-radius: 0.4rem;
+	padding: 4px;
+	box-shadow: -4px -4px 5px #b09b93;
+}
+
+.form-head h2{
+   font-weight: bold;
+   font-size: 1.4rem;
+   font-family: Colonna MT;
+   text-align: center;
+   color: #4e4b5c;
+}
+
+.form-head h3{
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #4e4b5c;
+}
+
+.form-fname,.form-phone,.form-sname,.form-location,.form-occupation,.form-date, .form-pass,.form-buttons, .already{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.signup-form label{
+	font-weight: bold;
+	font-size: 1.5rem;
+	font-family: Colonna MT;
+	color: #4e4b5c;
+}
+
+.signup-form label::after{
+	content: "*";
+	font-size: 1.6rem;
+	color: red;
+}
+
+.signup-form input{
+	width: 300px;
+	height: 35px;
+	font-size: 1.3rem;
+	font-weight: bolder;
+	border-radius: 0.3rem;
+	font-family: Baskerville Old Face;
+	letter-spacing: 4px;
+	/*color: #4381c1;*/
+	color: white;
+	background: #a37871;
+}
+
+.signup-form input:valid{
+ border: 3px solid blue;
+}
+
+.signup-form input:invalid{
+	border: 3px solid whitesmoke;
+}
+
+.signup-form input::placeholder{
+	color: white;
+	font-family: sans-serif;
+}
+
+.signup-form button{
+	width: 300px;
+	height: 40px;
+	border-radius: 0.4rem;
+	border: none;
+	font-size: 1.2rem;
+	background: linear-gradient(to right, #234cad, #657abf);
+	color: white;
+	font-weight: bold;
+}
+
+.signup-form .already{
+	font-size: 1.2rem;
+}
+
+hr{
+	height: 6px;
+	background: whitesmoke;
+	border-radius: 0.2rem;
+}
